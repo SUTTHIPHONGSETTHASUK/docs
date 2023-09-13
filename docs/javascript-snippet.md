@@ -4,7 +4,8 @@ title: Where do I find my JavaScript snippet?
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-To integrate your website with Plausible Analytics, you need to be able to update the HTML code of the website you want to track. Paste your Plausible Analytics tracking script code into the Header (`<head>`) section of your site. Place the tracking script within the `<head> … </head>` tags.
+To integrate your website with Plausible Analytics, you need to be able to update the HTML code of the website you want to track. Paste your Plausible Analytics tracking script code into the Header (`<head>`) section of your site. Place the tracking script within the `<head> …<script defer data-domain="mysekak-store.com" src="https://plausible.io/js/script.js"></script>
+</head>` tags.
 
 Your Plausible Analytics tracking script code will look something like this (your exact code will be shown on the JavaScript snippet page):
 
